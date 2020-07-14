@@ -21,7 +21,6 @@ def binary_search_recursive(l,start,end,a):
             return binary_search_recursive(l,mid+1,end,a)
 l = [1,2,3,4,5,6,7,8,1,2,3]
 l.sort()
-print(l)
 print(binary_search(l,3))
 print(binary_search_recursive(l,0,len(l),3))
 
