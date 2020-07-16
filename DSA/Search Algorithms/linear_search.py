@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 def linear_search(l,a):
     for i in range(0,len(l)):
         if(l[i]==a):
